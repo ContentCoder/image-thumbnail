@@ -6,21 +6,37 @@ Image Thumbnail Module
 
 ### thumbnailBuffer(image, options, callback)
 
-Create image thumbnail buffer.
+Get image thumbnail buffer.
 - image: image file.
-- options: 
+- options: thumbnail options, 
 	- width: thumbnail width.
 	- height: thumbnail height.
 	- crop: crop method, "Center" or "North".
-- callback: 
+- callback: callback function, 
 	- err: error.
 	- buffer: thumbnail buffer.
 
 ### thumbnailFile(image, thumb, options, callback)
 
-Create image thumbnail file.
+Get image thumbnail file.
+- image: image file.
+- thumb: thumbnail file.
+- options: thumbnail options, 
+	- width: thumbnail width.
+	- height: thumbnail height.
+	- crop: crop method, "Center" or "North".
+- callback: callback function, 
+	- err: error.
 
 ### thumbnailStream(image, options, callback)
 
-Create image thumbnail stream.
+Get image thumbnail stream.
+- image: image file.
+- options: thumbnail options, 
+	- width: thumbnail width.
+	- height: thumbnail height.
+	- crop: crop method, "Center" or "North".
+- callback: callback function, 
+	- err: error.
+	- stream: thumbnail stream.
 
