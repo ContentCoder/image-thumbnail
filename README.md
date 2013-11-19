@@ -1,6 +1,10 @@
 # image-thumbnail
 
-Image Thumbnail Module
+Image thumbnail module.
+
+## Install
+
+npm install image-thumbnail
 
 ## API
 
