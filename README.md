@@ -2,10 +2,6 @@
 
 Image thumbnail module.
 
-## Install
-
-npm install image-thumbnail
-
 ## API
 
 ### thumbnailBuffer(image, options, callback)
@@ -43,4 +39,5 @@ Get image thumbnail stream.
 - callback: callback function, 
 	- err: error.
 	- stream: thumbnail stream.
+
 
